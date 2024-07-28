@@ -27,3 +27,21 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber);
 console.log(stringNumber);
+
+//operations
+let value = 3
+let negativeValue = -value
+console.log(negativeValue)
+
+let str1 = "Krishna"
+let str2 = " Balireddy"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2 + 2)
+console.log(2 + "1");
+console.log(1 + 2 + "2")
+
+let gameCounter = 1000
+gameCounter++
+console.log(gameCounter);

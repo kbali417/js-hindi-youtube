@@ -20,18 +20,40 @@ console.log(id === anotherID)
 
 // Array , Objects, Functions
 
-const arr = ["shaktiman", "naagraj", "doga"];
+// const arr = ["shaktiman", "naagraj", "doga"];
 
-let obj = {
-    name: "Krishna",
-    age: 25
+// let obj = {
+//     name: "Krishna",
+//     age: 25
+// }
+
+// const myFunction = function(){
+//     console.log("Hello World")
+// }
+
+// console.log(typeof id)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let channelName = "dailySnaps"
+let anotherName = channelName
+anotherName = "Krishna Balireddy"
+console.log(anotherName)
+console.log(channelName)
+
+let userOne = {
+    user: "user@gmail.com",
+    upi: "user@ybl"
 }
 
-const myFunction = function(){
-    console.log("Hello World")
-}
+let userTwo = userOne
+userTwo.user = "user2@gmail.com"
+console.log(userOne.user)
+console.log(userTwo.user)
 
-console.log(typeof id)
+
+
 
 
 
